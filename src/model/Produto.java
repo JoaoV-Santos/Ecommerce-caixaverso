@@ -2,7 +2,7 @@ package model;
 
 public class Produto {
     private String nome;
-    private double precoCadastrado;
+    private double precoBase;
 
     public String getNome() {
         return nome;
@@ -12,11 +12,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public double getPrecoCadastrado() {
-        return precoCadastrado;
+    public double getPrecoBase() {
+        return precoBase;
     }
 
-    public void setPrecoCadastrado(double precoCadastrado) {
-        this.precoCadastrado = precoCadastrado;
+    public void setPrecoBase(double precoBase) {
+        this.precoBase = precoBase;
     }
 }
